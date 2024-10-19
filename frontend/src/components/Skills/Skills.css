@@ -1,0 +1,155 @@
+.Skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsContainer{
+    width: 80%;
+    height: 70%;
+    border-radius: 30px;
+    border: 1px solid rgb(32, 34, 36);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.skillsContainer::-webkit-scrollbar{
+    background-color: gray;
+    border-radius: 20px;
+    width: 10px;
+}
+.skillsContainer::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+.skillDiv {
+    width: 450px;
+    height: 80px;
+    border: 1px solid rgb(57, 59, 61);
+    border-radius: 30px;
+    margin:10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    transition: 0.4s;
+}.skillDiv:hover{
+    border: 1px solid cyan;
+}
+
+.split{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(23, 24, 26);
+}
+
+.skillDiv img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.level{
+    width: 300px;
+    height: 10px;
+    border: 1px solid rgb(67, 69, 71);
+    border-radius: 10px;
+}
+
+.level div{
+    width: 10%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.Html div{
+    width: 80%;
+}
+.Css div{
+    width: 70%;
+}
+.Js div{
+    width: 70%;
+}
+.Nodejs div{
+    width: 50%;
+}
+.React div{
+    width: 60%;
+}
+.Github div{
+    width: 30%;
+}
+
+.skillDiv p{
+    font-size: 13px;
+    margin: 10px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 30px 0;
+}
+
+@media (max-width:1024px) {
+    .skillsContainer{
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .skillsContainer{
+        width: 430px;
+    }
+}
+
+@media (max-width: 500px) {
+    .skillsContainer{
+        width: 350px;
+    }
+    .skillDiv {
+        width: 300px;
+        height: 80px;
+    }
+    .title{
+        font-size: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .skillsContainer{
+        width: 300px;
+        height: 200px;
+        overflow-y: scroll;
+    }
+    .skillDiv {
+        width: 250px;
+        height: 60px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .skillDiv img {
+        width: 15%;
+        border-radius: 50%;
+        margin: 10px;
+    }
+}
+@media (max-width: 400px) {
+    .Skills{
+        border: none;
+    }
+    .title{
+        font-size: 25px;
+    }
+}

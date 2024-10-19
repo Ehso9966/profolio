@@ -1,0 +1,24 @@
+*{
+  font: caption;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+}
+
+a{
+  cursor: default;
+}
+
+p{
+  cursor: default;
+}
+
+li{
+  cursor: default;
+}
